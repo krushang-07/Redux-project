@@ -5,7 +5,7 @@ import { fakeUser } from "../api";
 import { useDispatch } from "react-redux";
 import { addUser } from "../store/slice/UserSlice";
 import DisplayUsers from "../components/DisplayUsers";
-import DeleteAllUser from "./DeleteAllUser";
+import DeleteAllUser from "../components/DeleteAllUser";
 
 const UserDetails = () => {
   const dispatch = useDispatch();
